@@ -185,3 +185,7 @@
 } */
 
 /* Start navbar part */
+
+* li {
+  text-decoration: none;
+}

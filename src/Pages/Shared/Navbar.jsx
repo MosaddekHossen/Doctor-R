@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <header>
-      <nav className="navbar py-8 px-8 xl:px-0">
+      <nav className="navbar py-8 md:px-8 px-6 xl:px-0">
         <div className="navbar-container container">
           <input type="checkbox" name="" id="" />
           <div className="hamburger-lines">
@@ -74,10 +74,12 @@ const Navbar = () => {
                 fill="white"
               />
             </svg>
-            <span className="px-1 text-[35px] text-[#F7A582] font-source font-bold">
+            <span className="px-2 text-[35px] text-[#F7A582] font-source font-bold">
               Doc
             </span>
-            <span className="text-[35px] font-source font-bold">House</span>
+            <span className="text-[35px] font-source text-white font-bold">
+              House
+            </span>
           </div>
         </div>
       </nav>
