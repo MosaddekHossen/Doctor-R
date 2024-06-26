@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <header>
-      <nav className="navbar py-8">
+      <nav className="navbar py-8 px-8 lg:px-0">
         <div className="navbar-container container">
           <input type="checkbox" name="" id="" />
           <div className="hamburger-lines">
@@ -44,8 +44,10 @@ const Navbar = () => {
                 fill="white"
               />
             </svg>
-            <span className="px-1 text-[35px] text-[#F7A582]">Doc </span>
-            <span className="text-[35px]">House</span>
+            <span className="px-1 text-[35px] text-[#F7A582] font-source font-bold">
+              Doc
+            </span>
+            <span className="text-[35px] font-source font-bold">House</span>
           </div>
         </div>
       </nav>
