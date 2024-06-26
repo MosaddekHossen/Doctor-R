@@ -1,7 +1,9 @@
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <header>
-      <nav className="navbar py-8 px-8 lg:px-0">
+      <nav className="navbar py-8 px-8 xl:px-0">
         <div className="navbar-container container">
           <input type="checkbox" name="" id="" />
           <div className="hamburger-lines">
@@ -11,16 +13,44 @@ const Navbar = () => {
           </div>
           <ul className="menu-items">
             <li>
-              <a href="#">Home</a>
+              <NavLink
+                to={`home`}
+                className={({ isActive, isPending }) =>
+                  isActive ? "active" : isPending ? "pending" : ""
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href="#">About</a>
+              <NavLink
+                to={`home`}
+                className={({ isActive, isPending }) =>
+                  isActive ? "active" : isPending ? "pending" : ""
+                }
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <a href="#">Appointment</a>
+              <NavLink
+                to={`appointment`}
+                className={({ isActive, isPending }) =>
+                  isActive ? "active" : isPending ? "pending" : ""
+                }
+              >
+                Appointment
+              </NavLink>
             </li>
             <li>
-              <a href="#">Login</a>
+              <NavLink
+                to={`login`}
+                className={({ isActive, isPending }) =>
+                  isActive ? "active" : isPending ? "pending" : ""
+                }
+              >
+                Login
+              </NavLink>
             </li>
           </ul>
           <div className="logo flex justify-center items-center font-bold">

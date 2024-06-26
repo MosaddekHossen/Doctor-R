@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="bg-base-300">
-      <div className="footer text-base-content py-10 px-8 lg:px-0 max-w-custom mx-auto">
+      <div className="footer text-base-content py-10 px-8 xl:px-0 max-w-custom mx-auto">
         <aside className="flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
