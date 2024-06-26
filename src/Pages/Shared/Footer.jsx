@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-base-300">
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 text-base-content py-10 md:px-8 px-6 xl:px-0 pt-[100px] pb-[70px] max-w-custom mx-auto">
-        <aside className="flex-1 justify-center">
+        <aside className="flex-1">
           <div className="flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const Footer = () => {
                 fill="#07332F"
               />
             </svg>
-            <span className="text-[35px] text-[#F7A582] font-source font-bold">
+            <span className="text-[35px] text-[#F7A582] px-2 font-source font-bold">
               Doc
             </span>
             <span className="text-[35px] font-source font-bold text-[#07332F]">
@@ -39,8 +39,8 @@ const Footer = () => {
             Appointment
           </button>
         </aside>
-        <nav className="flex-1 justify-center">
-          <h6 className="footer-title text-[25px] mb-5 pt-7 lg:pt-0 font-bold text-[#0A0808]">
+        <nav className="flex-1">
+          <h6 className="footer-title text-[25px] mb-5 pt-7 md:pt-0 lg:pt-0 font-bold text-[#0A0808]">
             Quick Links
           </h6>
           <li className="text-[#6C6B6B] text-lg font-semibold list-none">
@@ -65,7 +65,7 @@ const Footer = () => {
             My Account
           </li>
         </nav>
-        <nav className="flex-1 justify-center">
+        <nav className="flex-1">
           <h6 className="footer-title text-[25px] mb-5 pt-7 lg:pt-0 font-bold text-[#0A0808]">
             Doc House Services
           </h6>
@@ -91,7 +91,7 @@ const Footer = () => {
             Dental Clinic
           </li>
         </nav>
-        <nav className="flex-1 justify-center">
+        <nav className="flex-1">
           <h6 className="footer-title text-[25px] mb-5 pt-7 lg:pt-0 font-bold text-[#0A0808]">
             Working Hours
           </h6>
