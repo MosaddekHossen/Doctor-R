@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <header>
+      <img className="absolute" src="../../../public/img/Vector.svg" alt="" />
       <nav className="navbar py-8 md:px-8 px-6 xl:px-0">
         <div className="navbar-container container">
           <input type="checkbox" name="" id="" />
