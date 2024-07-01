@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header>
       <img className="absolute" src="../../../public/img/Vector.svg" alt="" />
-      <nav className="navbar py-12 md:px-8 px-6 xl:px-0">
+      <nav className="navbar lg:py-12 py-8 md:px-8 px-6 xl:px-0">
         <div className="navbar-container container">
           <input type="checkbox" name="" id="" />
           <div className="hamburger-lines">
