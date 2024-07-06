@@ -134,6 +134,8 @@
   }
 
   .navbar .menu-items {
+    position: relative;
+    z-index: 20;
     padding-top: 100px;
     background: #07332f;
     height: 100vh;

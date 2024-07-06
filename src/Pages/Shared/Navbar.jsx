@@ -54,7 +54,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
-          <div className="logo flex justify-center items-center font-bold">
+          <div className="logo flex justify-center items-center z-20 lg:z-0 font-bold">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="62"
