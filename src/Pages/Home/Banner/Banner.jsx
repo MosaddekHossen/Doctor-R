@@ -2,7 +2,7 @@ const Banner = () => {
   return (
     <>
       <div className="bg-[#07332F]">
-        <div className="lg:h-[calc(100vh-160px)] h-[calc(100vh-128px)] text-white max-w-custom md:px-14 mx-auto flex flex-col lg:flex-row items-center">
+        <div className="lg:h-[calc(100vh-160px)] h-[calc(100vh-128px)] text-white max-w-custom md:px-14 xl:px-0 mx-auto flex flex-col lg:flex-row items-center">
           <div className="flex-1">
             <div className="relative px-7 md:px-0">
               <h1 className="lg:text-[75px]  md:text-5xl text-[30px] lg:leading-[90px] text-center lg:tracking-[-3px] lg:text-left font-semibold text-[#F3F3F3]">
